@@ -114,7 +114,7 @@ var PrimaryNavigation = React.createClass({
 		if (!this.state.navIsVisible) return null;
 
 		return (
-			<nav className="primary-navbar">
+			<nav className="primary-navbar" style={backgroundColor: '#ffca45'} >
 				<Container clearFloatingChildren>
 					<ul className="app-nav app-nav--primary app-nav--left">
 						{this.renderBrand()}
